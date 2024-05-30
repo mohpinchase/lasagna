@@ -1,0 +1,71 @@
+
+body{
+    background-color: red;
+    background: -moz-linear-gradient(red, green);
+    background: -webkit-linear-gradient(rgb(233, 13, 13), rgb(3, 18, 224));
+    
+
+    font-size: 26px;
+}
+hr{
+    height: 3px;
+    margin: 3px 3px;
+    background-color: rgb(4, 7, 238);
+    
+}
+.one{
+    border-radius: 9%;
+    font-style: italic;
+    background-color: blue;
+    background: -moz-linear-gradient(red, green);
+    background: -webkit-linear-gradient(rgb(209, 204, 204), rgb(176, 233, 21));
+    
+}
+.two{
+    background-color: blue;
+    background: -moz-linear-gradient(red, green);
+    background: -webkit-linear-gradient(rgb(69, 10, 233), rgb(11, 214, 4));
+    border-color: chartreuse;
+    border-radius: 19%;
+}
+h1, h2{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 300;
+    font-size: xx-large;
+    text-decoration-line: underline;
+    font-weight: bolder;
+    color:coral
+    
+}
+img{
+    justify-content: center;
+    width: 20%;
+    height:auto;
+    margin-left: 25%;
+    margin-right: 75%;
+    scroll-snap-align:start;
+}
+section{
+    margin-left: 15%;
+    margin-right: 30%;
+    
+}
+@media only screen and (max-width: 768px) {
+    body{
+        background-image: linear-gradient(to left,red,blue,green);
+        font-size: 16px;
+    }
+    .one{
+        border-radius: 9%;
+        font-style: italic;
+        background-image: linear-gradient(to bottom,gray,red,yellow);
+    }
+    .two{
+        background-image:  linear-gradient(rgba(67, 177, 140, 0.65),rgba(164, 162, 175, 0.65)),url(/kitchen-775746_1280.jpg);
+
+        
+        border-color: chartreuse;
+        border-radius: 19%;
+    }
+  }
